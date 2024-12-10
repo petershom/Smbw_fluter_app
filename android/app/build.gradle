@@ -1,0 +1,43 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+    id "com.google.gms.google-services" // Apply the Google Services plugin
+}
+
+android {
+    namespace = "com.example.smbw"
+    compileSdk = 34 // Replace with your desired SDK version (e.g., 34 or latest)
+
+    defaultConfig {
+        applicationId = "com.example.smbw"
+        minSdk = 23 // Set minimum SDK version (Flutter's default is 23)
+        targetSdk = 34 // Match compileSdk
+        versionCode = 1
+        versionName = "1.0"
+        multiDexEnabled true
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    buildTypes {
+        release {
+            // Debug signingConfig used for simplicity in development
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+dependencies {
+    // Import the Firebase BoM (Bill of Materials)
+    implementation platform("com.google.firebase:firebase-bom:33.6.0")
+    implementation "com.google.firebase:firebase-analytics"
+    implementation 'androidx.multidex:multidex:2.0.1'
+}

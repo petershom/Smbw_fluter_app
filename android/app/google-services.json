@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "416179424457",
+    "firebase_url": "https://smbw-ee1bd-default-rtdb.firebaseio.com",
+    "project_id": "smbw-ee1bd",
+    "storage_bucket": "smbw-ee1bd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416179424457:android:df238e86813692fd55d118",
+        "android_client_info": {
+          "package_name": "com.example.smbw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416179424457-0guv51plvomehndnnsuins6mo0muhkc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0VHXJdRCFml_bcA2WdGCz8dMj15aaMrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416179424457-0guv51plvomehndnnsuins6mo0muhkc8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "416179424457-p8n6ntfnh3isod1umq68ett38h6qlfjj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.smbw"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416179424457:android:8471b9132ff3f01855d118",
+        "android_client_info": {
+          "package_name": "com.smbw.ap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416179424457-0guv51plvomehndnnsuins6mo0muhkc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0VHXJdRCFml_bcA2WdGCz8dMj15aaMrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416179424457-0guv51plvomehndnnsuins6mo0muhkc8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "416179424457-p8n6ntfnh3isod1umq68ett38h6qlfjj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.smbw"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416179424457:android:676a01baf418c9f155d118",
+        "android_client_info": {
+          "package_name": "com.smbw.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416179424457-0guv51plvomehndnnsuins6mo0muhkc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0VHXJdRCFml_bcA2WdGCz8dMj15aaMrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416179424457-0guv51plvomehndnnsuins6mo0muhkc8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "416179424457-p8n6ntfnh3isod1umq68ett38h6qlfjj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.smbw"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
